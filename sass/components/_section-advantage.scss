@@ -1,22 +1,22 @@
-.section-advantage {
+.advantage {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     padding-bottom: 0;
 }
 
-.section-advantage__list {
+.advantage__list {
     display: flex;
 }
 
-.section-advantage__item {
+.advantage__item {
     width: calc((100% - 90px) / 4);
 
 &:not(:last-child) {
     margin-right: 30px;
 }
 }
-.section-advantage__bg {
+.advantage__bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
     margin-bottom: 30px;
 }
 
-.section-advantage__title {
+.advantage__title {
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 700;

@@ -1,9 +1,9 @@
-.section-client__list {
+.client__list {
     display: flex;
     justify-content: center;
 }
 
-.section-client__link {
+.client__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,10 +21,10 @@
     }  
 }
 
-.section-client__item:not(:last-child) {
+.client__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.section-client__icon {
+.client__icon {
     fill: currentColor;
 }
